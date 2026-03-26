@@ -32,7 +32,6 @@ namespace ImmersiveFamilies
                 // Set _harmony early so the triple-load guard works even if we throw below
                 _harmony = new Harmony(HarmonyId);
 
-                // Capture original family names before any postfix mutations
                 Infos infos = modSettings.Infos;
                 OriginalNames = new Dictionary<FamilyType, TextType>();
                 for (FamilyType f = 0; f < infos.familiesNum(); f++)
@@ -65,9 +64,7 @@ namespace ImmersiveFamilies
         {
             var mappings = new Dictionary<(string, string), string>();
 
-            // Find our mod's directory via ModRecord.ModdedPath.
-            // Assembly.GetExecutingAssembly().Location returns an invalid path
-            // in Old World's runtime, so we match by assembly name instead.
+            // Find our mod's directory via ModRecord.ModdedPath
             string modDir = null;
             string assemblyName = Assembly.GetExecutingAssembly().GetName().Name;
             foreach (var mod in modSettings.ModPath.GetMods())
@@ -126,7 +123,6 @@ namespace ImmersiveFamilies
                 InfoFamily familyInfo = infos.family(eIndex);
                 if (familyInfo == null) return;
 
-                // Find which nation this family belongs to
                 string nationZType = null;
                 for (NationType n = 0; (int)n < familyInfo.mabNation.Count; n++)
                 {
@@ -143,7 +139,6 @@ namespace ImmersiveFamilies
                 if (ModEntryPoint.NameMappings.TryGetValue(
                         (nationZType, classZType), out string textZType))
                 {
-                    // Mapped — set custom name
                     TextType newName = infos.getType<TextType>(textZType);
                     if (newName != TextType.NONE)
                     {
@@ -157,7 +152,6 @@ namespace ImmersiveFamilies
                 else if (ModEntryPoint.OriginalNames != null
                          && ModEntryPoint.OriginalNames.TryGetValue(eIndex, out TextType originalName))
                 {
-                    // Unmapped — restore vanilla default
                     familyInfo.meName = originalName;
                 }
             }
