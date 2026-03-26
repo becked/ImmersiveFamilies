@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!-- Rome: 6 additional family colors (indices 4-9) -->
+  <!-- Placeholder hex values — content author will replace -->
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_05</zType>
+    <zName>Rome Family 5</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#7ec8a4</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_05_TEXT</zType>
+    <zName>Rome Family 5 Text</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#7ec8a4</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_06</zType>
+    <zName>Rome Family 6</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#d4866e</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_06_TEXT</zType>
+    <zName>Rome Family 6 Text</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#d4866e</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_07</zType>
+    <zName>Rome Family 7</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#a3c9e2</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_07_TEXT</zType>
+    <zName>Rome Family 7 Text</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#a3c9e2</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_08</zType>
+    <zName>Rome Family 8</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#c4d478</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_08_TEXT</zType>
+    <zName>Rome Family 8 Text</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#c4d478</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_09</zType>
+    <zName>Rome Family 9</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#e8a0c8</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_09_TEXT</zType>
+    <zName>Rome Family 9 Text</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#e8a0c8</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_10</zType>
+    <zName>Rome Family 10</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#b8b8b8</zHexValue>
+  </Entry>
+  <Entry>
+    <zType>COLOR_NATION_ROME_FAMILY_10_TEXT</zType>
+    <zName>Rome Family 10 Text</zName>
+    <ColorClass>COLORCLASS_NATIONS</ColorClass>
+    <zHexValue>#b8b8b8</zHexValue>
+  </Entry>
+</Root>

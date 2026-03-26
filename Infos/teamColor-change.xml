@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!-- Rome: extend from 4 family colors to 10 -->
+  <Entry>
+    <zType>TEAMCOLOR_NATION_ROME</zType>
+    <aePlayerColors>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_01</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_02</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_03</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_04</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_05</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_06</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_07</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_08</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_09</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_10</zValue>
+      <zValue>PLAYERCOLOR_NATION_ROME_FAMILY_NONE</zValue>
+    </aePlayerColors>
+    <aeBorderPatterns>
+      <zValue>BORDER_PATTERN_TRIANGLE</zValue>
+      <zValue>BORDER_PATTERN_DASH</zValue>
+      <zValue>BORDER_PATTERN_PLUS</zValue>
+      <zValue>BORDER_PATTERN_CIRCLE</zValue>
+      <zValue>BORDER_PATTERN_DIAMOND</zValue>
+      <zValue>BORDER_PATTERN_X</zValue>
+      <zValue>BORDER_PATTERN_BAR</zValue>
+      <zValue>BORDER_PATTERN_TRIANGLE2</zValue>
+      <zValue>BORDER_PATTERN_TRIANGLE</zValue>
+      <zValue>BORDER_PATTERN_DASH</zValue>
+    </aeBorderPatterns>
+  </Entry>
+</Root>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!-- Rome: 6 additional family player colors (indices 4-9) -->
+  <Entry>
+    <zType>PLAYERCOLOR_NATION_ROME_FAMILY_05</zType>
+    <AssetColor>COLOR_NATION_ROME_FAMILY_05</AssetColor>
+    <TextColor>COLOR_NATION_ROME_FAMILY_05_TEXT</TextColor>
+    <BorderColor>COLOR_NATION_ROME_FAMILY_05</BorderColor>
+    <CrestColor>COLOR_NATION_ROME_FAMILY_05</CrestColor>
+  </Entry>
+  <Entry>
+    <zType>PLAYERCOLOR_NATION_ROME_FAMILY_06</zType>
+    <AssetColor>COLOR_NATION_ROME_FAMILY_06</AssetColor>
+    <TextColor>COLOR_NATION_ROME_FAMILY_06_TEXT</TextColor>
+    <BorderColor>COLOR_NATION_ROME_FAMILY_06</BorderColor>
+    <CrestColor>COLOR_NATION_ROME_FAMILY_06</CrestColor>
+  </Entry>
+  <Entry>
+    <zType>PLAYERCOLOR_NATION_ROME_FAMILY_07</zType>
+    <AssetColor>COLOR_NATION_ROME_FAMILY_07</AssetColor>
+    <TextColor>COLOR_NATION_ROME_FAMILY_07_TEXT</TextColor>
+    <BorderColor>COLOR_NATION_ROME_FAMILY_07</BorderColor>
+    <CrestColor>COLOR_NATION_ROME_FAMILY_07</CrestColor>
+  </Entry>
+  <Entry>
+    <zType>PLAYERCOLOR_NATION_ROME_FAMILY_08</zType>
+    <AssetColor>COLOR_NATION_ROME_FAMILY_08</AssetColor>
+    <TextColor>COLOR_NATION_ROME_FAMILY_08_TEXT</TextColor>
+    <BorderColor>COLOR_NATION_ROME_FAMILY_08</BorderColor>
+    <CrestColor>COLOR_NATION_ROME_FAMILY_08</CrestColor>
+  </Entry>
+  <Entry>
+    <zType>PLAYERCOLOR_NATION_ROME_FAMILY_09</zType>
+    <AssetColor>COLOR_NATION_ROME_FAMILY_09</AssetColor>
+    <TextColor>COLOR_NATION_ROME_FAMILY_09_TEXT</TextColor>
+    <BorderColor>COLOR_NATION_ROME_FAMILY_09</BorderColor>
+    <CrestColor>COLOR_NATION_ROME_FAMILY_09</CrestColor>
+  </Entry>
+  <Entry>
+    <zType>PLAYERCOLOR_NATION_ROME_FAMILY_10</zType>
+    <AssetColor>COLOR_NATION_ROME_FAMILY_10</AssetColor>
+    <TextColor>COLOR_NATION_ROME_FAMILY_10_TEXT</TextColor>
+    <BorderColor>COLOR_NATION_ROME_FAMILY_10</BorderColor>
+    <CrestColor>COLOR_NATION_ROME_FAMILY_10</CrestColor>
+  </Entry>
+</Root>

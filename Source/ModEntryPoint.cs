@@ -18,8 +18,9 @@ namespace ImmersiveFamilies
         // (nationZType, familyClassZType) → textZType
         internal static Dictionary<(string, string), string> NameMappings;
 
-        // Original meName per family, captured at init before any mutations
+        // Original values per family, captured at init before any mutations
         internal static Dictionary<FamilyType, TextType> OriginalNames;
+        internal static Dictionary<FamilyType, int> OriginalColorIndices;
 
         public override void Initialize(ModSettings modSettings)
         {
@@ -34,9 +35,11 @@ namespace ImmersiveFamilies
 
                 Infos infos = modSettings.Infos;
                 OriginalNames = new Dictionary<FamilyType, TextType>();
+                OriginalColorIndices = new Dictionary<FamilyType, int>();
                 for (FamilyType f = 0; f < infos.familiesNum(); f++)
                 {
                     OriginalNames[f] = infos.family(f).meName;
+                    OriginalColorIndices[f] = infos.family(f).miColorIndex;
                 }
 
                 NameMappings = LoadConfig(modSettings);
@@ -56,6 +59,7 @@ namespace ImmersiveFamilies
             _harmony = null;
             NameMappings = null;
             OriginalNames = null;
+            OriginalColorIndices = null;
             Debug.Log("[ImmersiveFamilies] Harmony patches removed.");
             base.Shutdown();
         }
@@ -148,11 +152,16 @@ namespace ImmersiveFamilies
                     {
                         Debug.LogWarning($"[ImmersiveFamilies] Text key not found: {textZType}");
                     }
+                    familyInfo.miColorIndex = (int)eNewValue;
                 }
                 else if (ModEntryPoint.OriginalNames != null
                          && ModEntryPoint.OriginalNames.TryGetValue(eIndex, out TextType originalName))
                 {
                     familyInfo.meName = originalName;
+                    if (ModEntryPoint.OriginalColorIndices.TryGetValue(eIndex, out int originalColorIndex))
+                    {
+                        familyInfo.miColorIndex = originalColorIndex;
+                    }
                 }
             }
             catch (Exception ex)
