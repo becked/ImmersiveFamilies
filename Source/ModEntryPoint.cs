@@ -12,7 +12,7 @@ namespace ImmersiveFamilies
 {
     public class ModEntryPoint : ModEntryPointAdapter
     {
-        private const string HarmonyId = "com.spiderj90.immersivefamilies";
+        private const string HarmonyId = "com.ahmedaboulenein.immersivefamilies";
         private static Harmony _harmony;
 
         // (nationZType, familyClassZType) → textZType
