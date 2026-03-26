@@ -1,0 +1,55 @@
+<FamilyClassNames>
+  <!-- Rome: 4 default classes + 6 non-default classes for Randomize Families -->
+  <!-- Default classes (these names match vanilla) -->
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_STATESMEN</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_STATESMEN</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_CHAMPIONS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_CHAMPIONS</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_LANDOWNERS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_LANDOWNERS</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_PATRONS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_PATRONS</Name>
+  </Entry>
+  <!-- Non-default classes (placeholder names — content author will replace) -->
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_RIDERS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_RIDERS</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_CLERICS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_CLERICS</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_SAGES</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_SAGES</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_TRADERS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_TRADERS</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_ARTISANS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_ARTISANS</Name>
+  </Entry>
+  <Entry>
+    <Nation>NATION_ROME</Nation>
+    <FamilyClass>FAMILYCLASS_HUNTERS</FamilyClass>
+    <Name>TEXT_IMMFAM_ROME_HUNTERS</Name>
+  </Entry>
+</FamilyClassNames>

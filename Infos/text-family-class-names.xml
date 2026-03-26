@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!-- Rome: default class names (match vanilla) -->
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_STATESMEN</zType>
+    <en-US>Julii~Julii~Julii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_CHAMPIONS</zType>
+    <en-US>Fabii~Fabii~Fabii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_LANDOWNERS</zType>
+    <en-US>Claudii~Claudii~Claudii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_PATRONS</zType>
+    <en-US>Valerii~Valerii~Valerii</en-US>
+  </Entry>
+  <!-- Rome: non-default class names (placeholder — content author will replace) -->
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_RIDERS</zType>
+    <en-US>Senecans~Senecans~Senecans</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_CLERICS</zType>
+    <en-US>Aemilii~Aemilii~Aemilii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_SAGES</zType>
+    <en-US>Cornelii~Cornelii~Cornelii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_TRADERS</zType>
+    <en-US>Licinii~Licinii~Licinii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_ARTISANS</zType>
+    <en-US>Sempronii~Sempronii~Sempronii</en-US>
+  </Entry>
+  <Entry>
+    <zType>TEXT_IMMFAM_ROME_HUNTERS</zType>
+    <en-US>Manlii~Manlii~Manlii</en-US>
+  </Entry>
+</Root>
